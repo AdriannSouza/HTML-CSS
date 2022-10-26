@@ -1,0 +1,29 @@
+@charset "UTF8";
+
+body {
+    background-color: rgba(255, 182, 193, 0.716);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    text-align: left;
+    font-family: ;
+}
+
+p {
+    text-align: justify;
+    font-size: 16px;
+}
+
+mark {
+    background-color: lightcoral;
+}
+
+details {
+    text-align: left;
+}

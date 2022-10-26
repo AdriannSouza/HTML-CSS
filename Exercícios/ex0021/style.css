@@ -1,0 +1,26 @@
+@charset "UTF-8"
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    background-color: aquamarine;
+    height: 300px;
+    width: 300px;
+    
+    border-radius: 10px;
+    border: 10px solid #eb4b6bee;
+
+    padding: 10px;
+
+    outline: 5px dashed rgb(248, 165, 156);
+}
+
+a {
+    border-width: 4px;
+    border-style: solid;
+    border-color: #eb4b6bee;
+}

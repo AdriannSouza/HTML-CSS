@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Links</title>
+    <style>
+        mark {background-color: aqua;}
+        body {background-color: blanchedalmond;}
+    </style>
+</head>
+<body>
+    <h1>Usando links externos</h1> 
+    <p>Você pode acessar o meu <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">repositório público no GitHub.</a></p> <!--A tag target _blank e rel="external" servem para quando o usuário clickar no link presente na página, o seu siteseja mantido e não fechadi.--> <!--BLANK serve para abrir uma nova tela e EXTERNAL serve para definir o link como externo.-->
+    <p>Você também pode acessar o meu <a href="https://www.youtube.com/channel/UCR6-TKl5Fl5IzHEabm1La9w">canal gratuíto no YouTube</a></p>
+    <h2>Usando links internos</h2>
+    <p>Esta é a primeira página do site. Se você quiser, pode acessar também a minha <a href="pag002.html" rel="next"
+        target="_self">segunda página</a></p>
+    <p>Você também pode acessar a nossa <a href="Notícias/pagina3.html" rel="next">página de notícias</a></p> <!--Quando a página que você deseja redirecionar está em uma página distinta do arquivo base (primeira página), é sempre preferível utilizar o comando CTRL + SPACE-->
+    <!--Também é ideal colocar a tag _SELF (Atenção ao underline!) para sinalizar que a página está dentro do aglomerado de páginas do próprio site-->
+    <p>
+        <h1>Links para download</h1>
+            <ul>
+                <li><a href="35752_arquivo.pdf" download="Livromaluco.pdf" type="application/pdf"> Baixar o livro em PDF</a></li>
+                <li><a href="35752_arquivo.rar" download="Livro zip" type="application.zip">Livro compactado em ZIP.</a></li>
+            </ul>
+    </p>
+</body>
+</html>

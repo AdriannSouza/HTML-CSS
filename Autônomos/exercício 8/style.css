@@ -1,0 +1,38 @@
+@charset "UTF-8"
+
+header {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: px;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 750;
+}
+
+.main-header {
+    background-color: #8c65e66e;
+    border-radius: 12px;
+    padding: 16px;
+    font-family: 'Poppins', sans-serif;
+    border-style: double;
+}
+
+.itens {
+    background-color: #8c65e66e;
+    border-radius: 12px;
+    padding: 16px;
+    font-size: 18px;
+    border-style: double;    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
