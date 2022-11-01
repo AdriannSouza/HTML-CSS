@@ -20,7 +20,7 @@ header h1 {
 }
 
 section {
-    padding: 20px;
+    padding-left: 20px;
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
@@ -31,6 +31,7 @@ section {
     background-position: center center;
     box-shadow: 8px 5px 5px rgba(0, 0, 0, 0.668);
     background-attachment: fixed;
+    font-weight: bold;
     color: white;
 }
 .paralaxb {
@@ -39,7 +40,8 @@ section {
     background-position: center center;
     box-shadow: 8px 5px 5px rgba(0, 0, 0, 0.668);
     background-attachment: fixed;
-    font-weight: bolder;
+    font-weight: bold;
+    color: white;
 }
 
 a {
@@ -49,4 +51,9 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+footer {
+    background-color: grey;
+    text-align: center;
 }
