@@ -3,4 +3,6 @@
     margin: 0;
 }
 
-div
+div.container {
+    background-image: url("rocky-montains.jpg");
+}
