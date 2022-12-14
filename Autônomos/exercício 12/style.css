@@ -1,8 +1,18 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-div.container {
-    background-image: url("rocky-montains.jpg");
+.container {
+    background-image: url('rocky-montains.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
 }
